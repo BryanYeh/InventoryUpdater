@@ -1,0 +1,26 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ShopifyUpdater.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="shopify_store" Type="System.String" Scope="User">
+      <Value Profile="(Default)">crutchfield-theme.myshopify.com</Value>
+    </Setting>
+    <Setting Name="shopify_key" Type="System.String" Scope="User">
+      <Value Profile="(Default)">4ded81ea3386a7aa72cb1c091fc72b9f</Value>
+    </Setting>
+    <Setting Name="shopify_password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">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</Value>
+    </Setting>
+    <Setting Name="shopify_secret" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Db" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=.\AppDB.db;Version=3;&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=.\AppDB.db;Version=3;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

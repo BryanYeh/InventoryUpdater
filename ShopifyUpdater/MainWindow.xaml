@@ -1,0 +1,40 @@
+﻿<Window x:Class="ShopifyUpdater.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ShopifyUpdater"
+        mc:Ignorable="d"
+        Title="Shopify Store Inventory Updater" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+
+    <Grid>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_Setup Credentials" Click="Credentials_Setup_Click" />
+                <MenuItem Header="_Help">
+                    <MenuItem Header="Get Private App Credentials" Click="Shopify_Manual_Click" />
+                    <MenuItem Header="_About"/>
+                </MenuItem>
+
+            </Menu>
+        </DockPanel>
+        <ComboBox x:Name="LocationBox" HorizontalAlignment="Left" Margin="57,52,0,0" VerticalAlignment="Top" Width="190" SelectedValuePath="Tag" SelectionChanged="Location_Change"/>
+        <Button Content="Open CSV" HorizontalAlignment="Left" Margin="271,52,0,0" VerticalAlignment="Top" Width="96" Click="Csv_Select"/>
+
+        <Label x:Name="QtyColumnLabel" Content="Inventory Column" HorizontalAlignment="Left" Margin="57,84,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="QtyColumn" HorizontalAlignment="Left" Margin="57,110,0,0" VerticalAlignment="Top" Width="190"/>
+        <Label x:Name="SyncColumnLabel" Content="Column to Match" HorizontalAlignment="Left" Margin="288,84,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="SyncColumn" HorizontalAlignment="Left" Margin="288,110,0,0" VerticalAlignment="Top" Width="190"/>
+        <Label x:Name="NameColumnLabel" Content="Name Column" HorizontalAlignment="Left" Margin="492,84,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="NameColumn" HorizontalAlignment="Left" Margin="492,110,0,0" VerticalAlignment="Top" Width="190"/>
+        <Button Content="Start Update" HorizontalAlignment="Left" Margin="647,143,0,0" VerticalAlignment="Top" Width="96" Click="Start_Update"/>
+        
+        <Rectangle x:Name="Window_Filler" Fill="#FFF4F4F5" Stroke="#FFF4F4F5" Margin="10,27,10,10" Visibility="Hidden"/>
+        <Label x:Name="Inform_Setup" Content="To get started please setup your Shopify Private App Credentials" HorizontalAlignment="Left" Margin="201,137,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="Setup_Button" Content="Setup Credentials" HorizontalAlignment="Left" Margin="300,168,0,0" VerticalAlignment="Top" Width="117" Click="Credentials_Setup_Click"/>
+        
+
+
+    </Grid>
+
+</Window>
