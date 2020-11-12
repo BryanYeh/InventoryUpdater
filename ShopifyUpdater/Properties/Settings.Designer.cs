@@ -37,7 +37,7 @@ namespace ShopifyUpdater.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("4ded81ea3386a7aa72cb1c091fc72b9f")]
+        [global::System.Configuration.DefaultSettingValueAttribute("69e188b386d4aab79049267429bf1f00")]
         public string shopify_key {
             get {
                 return ((string)(this["shopify_key"]));
@@ -49,7 +49,7 @@ namespace ShopifyUpdater.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("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")]
+        [global::System.Configuration.DefaultSettingValueAttribute("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")]
         public string shopify_password {
             get {
                 return ((string)(this["shopify_password"]));
@@ -61,7 +61,7 @@ namespace ShopifyUpdater.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        [global::System.Configuration.DefaultSettingValueAttribute("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")]
         public string shopify_secret {
             get {
                 return ((string)(this["shopify_secret"]));
@@ -78,6 +78,66 @@ namespace ShopifyUpdater.Properties {
         public string Db {
             get {
                 return ((string)(this["Db"]));
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string max_inventory {
+            get {
+                return ((string)(this["max_inventory"]));
+            }
+            set {
+                this["max_inventory"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("+")]
+        public string adjust_type {
+            get {
+                return ((string)(this["adjust_type"]));
+            }
+            set {
+                this["adjust_type"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("0")]
+        public string adjust_amount {
+            get {
+                return ((string)(this["adjust_amount"]));
+            }
+            set {
+                this["adjust_amount"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("Begins with")]
+        public string filter_type {
+            get {
+                return ((string)(this["filter_type"]));
+            }
+            set {
+                this["filter_type"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string filter_string {
+            get {
+                return ((string)(this["filter_string"]));
+            }
+            set {
+                this["filter_string"] = value;
             }
         }
     }

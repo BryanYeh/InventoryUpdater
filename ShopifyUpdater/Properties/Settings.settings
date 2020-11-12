@@ -6,13 +6,13 @@
       <Value Profile="(Default)">crutchfield-theme.myshopify.com</Value>
     </Setting>
     <Setting Name="shopify_key" Type="System.String" Scope="User">
-      <Value Profile="(Default)">4ded81ea3386a7aa72cb1c091fc72b9f</Value>
+      <Value Profile="(Default)">69e188b386d4aab79049267429bf1f00</Value>
     </Setting>
     <Setting Name="shopify_password" Type="System.String" Scope="User">
-      <Value Profile="(Default)">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</Value>
+      <Value Profile="(Default)">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</Value>
     </Setting>
     <Setting Name="shopify_secret" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
+      <Value Profile="(Default)">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</Value>
     </Setting>
     <Setting Name="Db" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
@@ -21,6 +21,21 @@
   &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
 &lt;/SerializableConnectionString&gt;</DesignTimeValue>
       <Value Profile="(Default)">Data Source=.\AppDB.db;Version=3;</Value>
+    </Setting>
+    <Setting Name="max_inventory" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="adjust_type" Type="System.String" Scope="User">
+      <Value Profile="(Default)">+</Value>
+    </Setting>
+    <Setting Name="adjust_amount" Type="System.String" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="filter_type" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Begins with</Value>
+    </Setting>
+    <Setting Name="filter_string" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
     </Setting>
   </Settings>
 </SettingsFile>
