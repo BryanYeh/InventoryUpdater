@@ -16,7 +16,7 @@
         </MenuItem>
         <MenuItem Header="_Help">
           <MenuItem Header="Get Private App Credentials" Click="Shopify_Manual_Click" />
-          <MenuItem Header="_About"/>
+          <MenuItem Header="_About" Click="About_Click"/>
         </MenuItem>
       </Menu>
     </DockPanel>
@@ -29,13 +29,17 @@
     <ComboBox x:Name="SyncColumn" HorizontalAlignment="Left" Margin="288,110,0,0" VerticalAlignment="Top" Width="190"/>
     <Label x:Name="NameColumnLabel" Content="Name Column" HorizontalAlignment="Left" Margin="492,84,0,0" VerticalAlignment="Top"/>
     <ComboBox x:Name="NameColumn" HorizontalAlignment="Left" Margin="492,110,0,0" VerticalAlignment="Top" Width="190"/>
-    <Button Content="Start Update" HorizontalAlignment="Left" Margin="647,143,0,0" VerticalAlignment="Top" Width="96" Click="Start_Update"/>
+    <Button x:Name="Start_Update_Button" Content="Start Update" HorizontalAlignment="Left" Margin="647,168,0,0" VerticalAlignment="Top" Width="96" Click="Start_Update"/>
 
-    <ListBox x:Name="Update_Status" Margin="57,215,51,40"/>
+    <ListBox x:Name="Update_Status" Margin="57,201,51,54"/>
 
     <Rectangle x:Name="Window_Filler" Fill="#FFF4F4F5" Stroke="#FFF4F4F5" Margin="10,27,10,10" Visibility="Hidden"/>
     <Label x:Name="Inform_Setup" Content="To get started please setup your Shopify Private App Credentials" HorizontalAlignment="Left" Margin="201,137,0,0" VerticalAlignment="Top"/>
     <Button x:Name="Setup_Button" Content="Setup Credentials" HorizontalAlignment="Left" Margin="300,168,0,0" VerticalAlignment="Top" Width="117" Click="Credentials_Setup_Click"/>
+
+    <Button x:Name="Save_Update_Log" Content="Save Update Log" HorizontalAlignment="Left" Margin="626,378,0,0" VerticalAlignment="Top" Width="117" Click="Save_Log_Click"/>
+    <Button x:Name="Save_Missing_Csv" Content="Save missing from Csv" HorizontalAlignment="Left" Margin="480,378,0,0" VerticalAlignment="Top" Width="136" Click="Save_Csv_Log_Click"/>
+    <Button x:Name="Save_Missing_Shopify" Content="Save missing from Shopify" HorizontalAlignment="Left" Margin="317,378,0,0" VerticalAlignment="Top" Width="154" Click="Save_Shopify_Log_Click"/>
 
   </Grid>
 

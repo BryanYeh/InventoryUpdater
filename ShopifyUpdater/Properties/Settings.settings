@@ -3,16 +3,16 @@
   <Profiles />
   <Settings>
     <Setting Name="shopify_store" Type="System.String" Scope="User">
-      <Value Profile="(Default)">crutchfield-theme.myshopify.com</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="shopify_key" Type="System.String" Scope="User">
-      <Value Profile="(Default)">69e188b386d4aab79049267429bf1f00</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="shopify_password" Type="System.String" Scope="User">
-      <Value Profile="(Default)">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</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="shopify_secret" Type="System.String" Scope="User">
-      <Value Profile="(Default)">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</Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="Db" Type="(Connection string)" Scope="Application">
       <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;

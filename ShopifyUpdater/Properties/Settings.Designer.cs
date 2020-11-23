@@ -25,7 +25,7 @@ namespace ShopifyUpdater.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("crutchfield-theme.myshopify.com")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string shopify_store {
             get {
                 return ((string)(this["shopify_store"]));
@@ -37,7 +37,7 @@ namespace ShopifyUpdater.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("69e188b386d4aab79049267429bf1f00")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string shopify_key {
             get {
                 return ((string)(this["shopify_key"]));
@@ -49,7 +49,7 @@ namespace ShopifyUpdater.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("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")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string shopify_password {
             get {
                 return ((string)(this["shopify_password"]));
@@ -61,7 +61,7 @@ namespace ShopifyUpdater.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("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")]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
         public string shopify_secret {
             get {
                 return ((string)(this["shopify_secret"]));
